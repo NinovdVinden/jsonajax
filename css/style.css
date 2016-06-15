@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    width: 1308px;
+}
+
+/*  style validatie en github  */
+#validatie img{
+    width: 70px;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#githublink img{
+    width: 30px;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.holder {
+    width: 400px;
+    float: left;
+    height: 200px;
+    margin: 18px;
+    padding: 0;
+}
+
+.image {
+    width: 400px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+}
+
+h4 {
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+p#source {
+    clear: both;
+    text-align: center;
+}
+
+p#source a {
+    font-size: 10px;
+    text-decoration: none;
+    color: darkgrey;
+}

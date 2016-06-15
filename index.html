@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Zoek foto's</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script src="js/fotosHalen.js"></script>
+    </head>
+    <body>
+
+    <h1>Zoek foto's</h1>
+    <p>die op Flickr.com</p>
+
+    <!--Search en button gekoppelt aan script-->
+    <input type="search" placeholder="Zoek..." id="zoekwoord">
+    <input type="button" id="haalOp" value="Zoek">
+    <div id="validatie">
+        <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+            <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+        </a>
+    </div>
+
+    <div id="githublink">
+        <a href="https://github.com/NinovdVinden/albumCovers" target="_blank">
+        <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="github">
+        </a>
+    </div>
+    <br>
+    <br>
+
+    <!--Div waar alle images in worden gezet-->
+    <div id="images">
+    </div>
+
+    <!--Link naar recent geuploade foto's met bepaalde tag-->
+    <p id="source">
+        <a href=""></a>
+    </p>
+    </body>
+
+</html>
